@@ -1,0 +1,36 @@
+{
+   "name": "webunits-google-calendar",
+   "description": "This project syncs Webbunits calendars with the public Google Calendar. This allows users to subscribe to the calendar and access the calendar directly from any calendar application they are using.",
+   "version": "1.0.0",
+   "main": "dist/index.js",
+   "license": "MIT",
+   "type": "commonjs",
+   "author": {
+      "name": "Sulaiman Sulaiman",
+      "email": "s.su14iman@gmail.com",
+      "url": "https://www.su14iman.com/"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "oauth": "ts-node src/oauth.ts",
+      "token": "ts-node src/token.ts",
+      "dev": "ts-node-dev src/index.ts",
+      "build": "tsc --build",
+      "clean": "tsc --build --clean"
+   },
+   "devDependencies": {
+      "@types/node": "^16.18.39",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "4.5.2"
+   },
+   "engines": {
+      "node": ">=16.13.0"
+   },
+   "dependencies": {
+      "dotenv": "^16.3.1",
+      "webuntis": "^2.0.3",
+      "ics": "^3.4.0",
+      "googleapis": "^126.0.1",
+      "tsdav": "^2.0.5"
+   }
+}
