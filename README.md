@@ -1,8 +1,8 @@
-# webunits-google-calendar
+# webuntis-google-calendar
 
 ### #Projektidee
 
-Dieses Projekt synchronisiert die Webbunits-Kalender mit dem öffentlichen Google-Kalender. Dadurch können Benutzer sich in den Kalender einloggen und den Kalender direkt von jeder Kalender-App aus abrufen, die sie verwenden.
+Dieses Projekt synchronisiert die Webbuntis-Kalender mit dem öffentlichen Google-Kalender. Dadurch können Benutzer sich in den Kalender einloggen und den Kalender direkt von jeder Kalender-App aus abrufen, die sie verwenden.
 
 ### #Verwendung
 
@@ -20,6 +20,6 @@ Dieses Projekt synchronisiert die Webbunits-Kalender mit dem öffentlichen Googl
 
 ### #WeitereDetails
 
-- Das Skript verwendet die API von Webbunits, um die Kalender abzurufen.
+- Das Skript verwendet die API von Webbuntis, um die Kalender abzurufen.
 - Die Kalender werden in JSON-Format konvertiert und dann in den Google-Kalender hochgeladen.
 - Das Skript wird alle zwei Stunden ausgeführt, um sicherzustellen, dass die Kalender immer aktuell sind.
