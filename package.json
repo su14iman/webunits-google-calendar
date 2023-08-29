@@ -1,6 +1,6 @@
 {
-   "name": "webunits-google-calendar",
-   "description": "This project syncs Webbunits calendars with the public Google Calendar. This allows users to subscribe to the calendar and access the calendar directly from any calendar application they are using.",
+   "name": "webuntis-google-calendar",
+   "description": "This project syncs Webbuntis calendars with the public Google Calendar. This allows users to subscribe to the calendar and access the calendar directly from any calendar application they are using.",
    "version": "1.0.0",
    "main": "dist/index.js",
    "license": "MIT",
